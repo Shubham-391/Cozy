@@ -241,7 +241,7 @@ h1 {
 .box3 {
     width: 100%;
     min-height: 559px;
-    padding: 35px 25px;
+    padding: 16px;
     border-radius: 19px;
     border: 7px solid #FFF;
     background: var(--c2);
@@ -331,6 +331,10 @@ h1 {
     .handshake2 {
         width: 276px;
         height: 276px;
+    }
+
+    .box3 {
+        padding: 24px;
     }
 }
 
