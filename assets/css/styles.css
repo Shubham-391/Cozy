@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&display=swap');
+
+:root {
+    /* font size */
+    --fs-sm1: 16px;
+    --fs-sm2: 14px;
+    /*original 18px*/
+    --fs-sm3: 24px;
+    --fs-md: 28px;
+    --fs-lg: 40px;
+    /*original 50px*/
+    --fs-xl: 50px;
+    /*original 60px*/
+    --fs-xxl: 60px;
+    /*original 70px*/
+
+    /* color */
+    --c1: #9ACC44;
+    --c2: #5BA72B;
+    --c3: rgba(255, 255, 255, 0.10);
+    --c4: rgba(255, 255, 255, 0.60);
+    --c5: rgba(255, 255, 255, 0.80);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* font size */
+.fs-sm1 {
+    font-size: var(--fs-sm1);
+}
+
+.fs-sm2 {
+    font-size: var(--fs-sm2);
+}
+
+.fs-sm3 {
+    font-size: var(--fs-sm3);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+/* color */
+.c1 {
+    color: var(--c1);
+}
+
+.bg-c1 {
+    background: var(--c1);
+}
+
+.c2 {
+    color: var(--c2);
+}
+
+.c3 {
+    color: var(--c3);
+}
+
+.c4 {
+    color: var(--c4);
+}
+
+.c5 {
+    color: var(--c5);
+}
+
+/* line height */
+.line-height-normal {
+    line-height: normal;
+}
+
+.line-height-103 {
+    line-height: 103.164%;
+}
+
+.line-height-150 {
+    line-height: 150%;
+}
+
+/* font family */
+.ff-cherry {
+    font-family: Cherry Bomb One;
+}
+
+.ff-balsamiq {
+    font-family: Balsamiq Sans;
+}
+
+/* opacity */
+.opacity-30 {
+    opacity: 0.3;
+}
+
+.custom-container1 {
+    max-width: 1164px !important;
+}
+
+h1 {
+    text-shadow: 1px 4px 0px var(--c2);
+}
+
+.max-width-655 {
+    max-width: 655px;
+}
+
+.box-properties {
+    border-radius: 10px;
+    border: 1px solid var(--c4);
+    background: var(--c3);
+    padding: 20px;
+}
+
+.box1 {
+    width: 98%;
+    height: 293px;
+}
+
+.box2 {
+    width: 98%;
+    height: 293px;
+}
+
+.me-6 {
+    margin-right: 6px;
+}
+
+.notebook {
+    top: 40px;
+    right: 20px;
+    width: 120px;
+    height: 176px;
+}
+
+.hand-shake {
+    top: 40px;
+    right: 20px;
+    width: 135px;
+    height: 176px;
+}
+
+.growth-bar {
+    top: 40px;
+    right: 20px;
+    width: 130px;
+    height: 173px;
+}
+
+.rocket {
+    top: 40px;
+    right: 20px;
+    width: 130px;
+    height: 176px;
+}
+
+.box1:hover {
+    background: var(--c2);
+}
+
+.box2:hover {
+    background: var(--c2);
+}
+
+.box1:hover div svg path {
+    opacity: 1;
+}
+
+.box2:hover div svg path {
+    opacity: 1;
+}
+
+.row-gap-21 {
+    row-gap: 21px;
+}
+
+.min-height-1010 {
+    min-height: 1010px;
+}
+
+.cloud1 {
+    display: none;
+}
+
+.cloud2 {
+    display: none;
+}
+
+.tree {
+    bottom: -3%;
+    left: -10%;
+    opacity: 0.3;
+}
+
+.box3 {
+    width: 100%;
+    min-height: 559px;
+    padding: 35px 25px;
+    border-radius: 19px;
+    border: 7px solid #FFF;
+    background: var(--c2);
+}
+
+.close {
+    top: 20px;
+    right: 20px;
+}
+
+.d_none {
+    display: none !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.min-height-976 {
+    min-height: 976px;
+}
+
+.notebook2 {
+    width: 230px;
+    height: 230px;
+}
+
+.growth-bar2 {
+    width: 240px;
+    height: 240px;
+}
+
+.rocket2 {
+    width: 230px;
+    height: 230px;
+}
+
+.handshake2 {
+    width: 220px;
+    height: 220px;
+}
+
+@media(min-width: 576px) {
+    :root {
+        /* font size */
+        --fs-sm1: 16px;
+        --fs-sm2: 18px;
+        --fs-sm3: 24px;
+        --fs-md: 28px;
+        --fs-lg: 50px;
+        --fs-xl: 60px;
+        --fs-xxl: 70px;
+    }
+
+    .notebook {
+        width: 158px;
+    }
+
+    .growth-bar {
+        width: 190px;
+    }
+
+    .rocket {
+        width: 154px;
+    }
+
+    .hand-shake {
+        width: 176px;
+    }
+
+    .close {
+        top: 30px;
+        right: 30px;
+    }
+
+    .notebook2 {
+        width: 250px;
+        height: 289px;
+    }
+
+    .growth-bar2 {
+        width: 290px;
+        height: 273px;
+    }
+
+    .rocket2 {
+        width: 254px;
+        height: 276px;
+    }
+
+    .handshake2 {
+        width: 276px;
+        height: 276px;
+    }
+}
+
+@media(min-width: 768px) {
+    .cloud1 {
+        display: block;
+        top: 5%;
+        left: -36%;
+        width: 670px;
+        height: 142px;
+    }
+
+    .cloud2 {
+        display: block;
+        top: 3%;
+        right: -18%;
+        width: 576px;
+        height: 122px;
+    }
+}
+
+@media(min-width: 992px) {
+    .notebook {
+        top: 51px;
+        right: 69px;
+    }
+
+    .hand-shake {
+        top: 51px;
+        right: 38px;
+    }
+
+    .growth-bar {
+        top: 54px;
+        right: 38px;
+    }
+
+    .rocket {
+        top: 51px;
+        right: 49px;
+    }
+
+    .cloud1 {
+        top: 5%;
+        left: -13%;
+    }
+
+    .cloud2 {
+        top: 3%;
+        right: -4%;
+    }
+
+    .box3 {
+        padding: 75px 65px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box1 {
+        width: 637px;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .tree {
+        opacity: 1;
+    }
+}
