@@ -110,6 +110,31 @@
     opacity: 0.3;
 }
 
+/* preloader */
+#preloder {
+    z-index: 6;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 5px solid #555;
+    border-top-color: #f9f9f9;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .custom-container1 {
     max-width: 1164px !important;
 }
@@ -132,6 +157,10 @@ h1 {
 .box1 {
     width: 98%;
     height: 293px;
+}
+
+.transition {
+    transition: all linear 300ms;
 }
 
 .box2 {
@@ -221,10 +250,6 @@ h1 {
 .close {
     top: 20px;
     right: 20px;
-}
-
-.d_none {
-    display: none !important;
 }
 
 .cursor-pointer {
